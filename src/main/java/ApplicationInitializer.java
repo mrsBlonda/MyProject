@@ -8,7 +8,7 @@ public class ApplicationInitializer implements WebApplicationInitializer {
     @Override
     public void onStartup(javax.servlet.ServletContext servletContext) throws ServletException {
         final var context = new AnnotationConfigWebApplicationContext();
-        context.scan("MyProject");
+        context.scan("/");
         context.refresh();
 
         final var servlet = new DispatcherServlet(context);
