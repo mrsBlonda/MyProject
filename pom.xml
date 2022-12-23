@@ -20,7 +20,7 @@
         <artifactId>tomcat7-maven-plugin</artifactId>
         <version>2.2</version>
         <configuration>
-          <url>http://172.29.4.214:8085/manager</url>
+          <url>http://172.29.4.214:8085/manager/</url>
           <server>TomcatServer</server>
           <path>/hello</path>
           <username>anna</username>
