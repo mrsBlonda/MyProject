@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/")
 public class App {
 
-    @GetMapping("/")
+    @GetMapping("/hello")
     public String hello() {
         return "Hello my friend";
     }
